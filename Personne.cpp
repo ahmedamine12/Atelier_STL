@@ -29,33 +29,9 @@ void Personne::info_per(string nom, unordered_map<string, Personne> P) {
 
 
 
-
-
 }
 
-const string &Personne::getNom() const {
-    return nom;
-}
 
-void Personne::setNom(const string &nom) {
-    Personne::nom = nom;
-}
-
-const string &Personne::getAdresse() const {
-    return adresse;
-}
-
-void Personne::setAdresse(const string &adresse) {
-    Personne::adresse = adresse;
-}
-
-const string &Personne::getNumTel() const {
-    return num_tel;
-}
-
-void Personne::setNumTel(const string &numTel) {
-    num_tel = numTel;
-}
 
 void Personne::afficher(unordered_map<string, Personne> P)
 {
