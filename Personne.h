@@ -19,9 +19,6 @@ namespace per {
         string adresse;
         string num_tel;
     public:
-      
-
-    public:
         Personne(string, string, string);
        static void info_per(string nom,unordered_map<string,Personne>);
        static void afficher(unordered_map<string,Personne>);
