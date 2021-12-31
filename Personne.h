@@ -19,17 +19,7 @@ namespace per {
         string adresse;
         string num_tel;
     public:
-        const string &getNom() const;
-
-        void setNom(const string &nom);
-
-        const string &getAdresse() const;
-
-        void setAdresse(const string &adresse);
-
-        const string &getNumTel() const;
-
-        void setNumTel(const string &numTel);
+      
 
     public:
         Personne(string, string, string);
